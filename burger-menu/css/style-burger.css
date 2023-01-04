@@ -1,0 +1,162 @@
+@font-face {
+  font-family: 'TT Lakes Regular';
+  src: url('../fonts/TTLakes-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TT Lakes Medium';
+  src: url('../fonts/TTLakes-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TT Lakes Bold';
+  src: url('../fonts/TTLakes-Bold.woff') format('woff');
+  font-weight: Bold;
+  font-style: normal;
+}
+
+
+
+
+html {
+  box-sizing: border-box;
+}
+
+*,*:before,*:after {
+  box-sizing: inherit;
+}
+
+.burger-menu {
+  max-width: 320px;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  font-family: "TT Lakes Medium";
+  font-size: 16px;
+  line-height: 24px;
+  background-color: rgba(255, 255, 255, 1);
+  color: #1b1c21;
+  box-shadow: 0 -15px 15px 10px lightgray;
+  overflow: hidden;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  background-color: white;
+}
+
+button:hover {
+  transform: scale(1.1);
+  opacity: .6;
+}
+
+.header__conteiner {
+  display: flex;
+}
+
+.menu-burger__btn {
+  margin: 23px 16px 57px 24px;
+}
+
+.logo__btn {
+  margin: 18px 78px 50px 0;
+}
+
+.search__btn {
+  margin: 23px 24px 57px 0;
+}
+
+.list {
+	list-style: none;
+	padding: 0;
+  margin: 0;
+}
+
+.list__item {
+	list-style: none;
+	padding: 0;
+}
+
+.list .list__item {
+	margin-bottom: 32px;
+}
+
+.link {
+	text-decoration: none;
+	color: #1B1C21;
+	display: flex;
+	align-items: center;
+  padding-left: 24px;
+}
+
+.list__item .link:hover::before {
+	content: '';
+	display: inline-block;
+	position: relative;
+	right: 10px;
+	width: 4px;
+  left: -24px;
+	height: 30px;
+  border-radius: 20%;
+	background-color: #41F6D7;
+}
+
+.list__item a:hover {
+	transition-duration: 0.6s;
+	transition-property: color;
+	color: #7E7E82;
+}
+
+.section-footer {
+  position: relative;
+  top: 220px;
+}
+
+.contacts-btn {
+  display: flex;
+  height: 40px;
+  margin-bottom: 16px;
+}
+
+.call__btn {
+  margin-right: 16px;
+  margin-left: 24px;
+}
+
+.chat__btn {
+  margin-right: 16px;
+}
+
+.contacts-adress {
+  height: 24px;
+  margin-bottom: 12px;
+}
+
+.contacts-tel {
+  font-family: "TT Lakes Bold";
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 40px;
+}
+
+.language {
+	display: flex;
+  margin-left: 24px;
+}
+
+.lang__ru, .lang__en,
+.lang__ch {
+	margin-right: 7px;
+  padding: 0;
+}
+
+.lang a:hover {	
+	transition-duration: 1s;
+	color: #7E7E82;
+}
