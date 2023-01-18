@@ -56,7 +56,7 @@ button:hover {
   opacity: .6;
 }
 
-.header__conteiner {
+.header__container {
   display: flex;
 }
 
@@ -133,7 +133,7 @@ button:hover {
   margin-right: 16px;
 }
 
-.contacts-adress {
+.contacts-address {
   height: 24px;
   margin-bottom: 12px;
 }

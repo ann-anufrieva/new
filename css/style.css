@@ -49,7 +49,7 @@ body {
   margin: 0;
 }
 
-.header__conteiner {
+.header__container {
   display: flex;
   align-items: center;
   border-bottom: 1px solid #D9FFF5;
@@ -57,10 +57,10 @@ body {
 }
 
 @media (min-width: 1120px) {
-  .header__conteiner {
-   background-color: #F8F8F8;
-   border: 0;
- }
+  .header__container {
+    background-color: #F8F8F8;
+    border: 0;
+  }
 }
 
 .header__inner {
@@ -71,8 +71,8 @@ body {
 
 @media (min-width: 1120px) {
   .header__inner {
-   display: none;
- }
+    display: none;
+  }
 }
 
 .button__menu {
@@ -98,8 +98,8 @@ body {
 
 @media (min-width: 768px) {
   .button__logo {
-   margin-right: 234px;
- }
+    margin-right: 234px;
+  }
 }
 
 .divided-one {
@@ -111,8 +111,8 @@ body {
 
 @media (max-width: 320px) {
   .divided-one{
-   display: none;
- }
+    display: none;
+  }
 }
 
 .button__call {
@@ -124,8 +124,8 @@ body {
 
 @media (max-width: 320px) {
   .button__call{
-   display: none;
- }
+    display: none;
+  }
 }
 
 .button__chat {
@@ -137,8 +137,8 @@ body {
 
 @media (max-width: 320px) {
   .button__chat{
-   display: none
- }
+    display: none
+  }
 }
 
 .button__profile {
@@ -173,7 +173,7 @@ body {
     height: 40px;
     left: 716px;
     top: 42px;
- }
+  }
 }
 
 .button__repair {
@@ -202,8 +202,8 @@ body {
 
 @media (max-width: 320px) {
   .repair__inscription {
-   display: none;
- }
+    display: none;
+  }
 }
 
 @media (min-width: 768px) {
@@ -211,16 +211,17 @@ body {
     display: none;
   }
 }
- 
+
 @media (min-width: 1120px) {
   .repair__inscription {
-   display: contents;
+    display: contents;
   }
 }
 
 .checkstatus {
   display: flex;
 }
+
 @media (min-width: 1120px) {
   .checkstatus {
     flex-shrink: 0;
@@ -231,9 +232,9 @@ body {
     right: 32px;
     left: 921px;
     top: 42px;
-
   }
 }
+
 .button__checkstatus {
   background-color: white;
   border: 0;
@@ -243,8 +244,8 @@ body {
 
 @media (min-width: 768px) {
   .button__checkstatus {
-   margin-right: 40px;
- }
+    margin-right: 40px;
+  }
 }
 
 @media (min-width: 1120px) {
@@ -266,7 +267,7 @@ body {
 
 @media (max-width: 320px) {
   .checkstatus__inscription {
-   display: none;
+    display: none;
   }
 }
 
@@ -322,7 +323,7 @@ body {
   .title__inner {
     margin: 42px auto 8px 32px;
   }
- }
+}
 
 .slider {
   display: flex;
@@ -330,7 +331,7 @@ body {
   list-style-type: none;
 }
 
-.slaider__inner {
+.slider__inner {
   display: flex;
   flex-basis: content;
   flex-shrink: 0;
@@ -343,18 +344,18 @@ body {
 }
 
 @media (min-width: 768px) {
-  .slaider__inner {
+  .slider__inner {
     margin: 0 auto 32px 24px;
   }
 }
 
 @media (min-width: 1120px) {
-  .slaider__inner {
+  .slider__inner {
     margin: 0 auto 14px 32px;
   }
 }
 
-.slaider__element1 {
+.slider__element1 {
   border: 2px solid #B8FFEC;
   border-radius: 6px;
   background-color: #FFFFFF;
@@ -367,14 +368,14 @@ body {
 }
 
 @media (min-width: 1120px) {
-  .slaider__element2 {
+  .slider__element2 {
     display: none;
   }
 }
 
-.slaider__element2,.slaider__element3, 
-.slaider__element4,.slaider__element5, 
-.slaider__element6  {
+.slider__element2,.slider__element3, 
+.slider__element4,.slider__element5, 
+.slider__element6  {
   background-color: #F8F8F8;
   padding: 0;
   border: 0 solid #F8F8F8;
@@ -386,36 +387,36 @@ body {
 }
 
 @media (min-width: 768px) {
-  .slaider__element3 {
+  .slider__element3 {
     display: none;
   }
 }
 
 @media (min-width: 1120px) {
-  .slaider__element3 {
+  .slider__element3 {
     display: contents;
   }
 }
 
 @media (min-width: 768px) {
-  .slaider__element5 {
+  .slider__element5 {
     display: none;
   }
 }
 
 @media (min-width: 1120px) {
-  .slaider__element5 {
+  .slider__element5 {
     display: contents;
   }
 }
 
-.conteiner {
+.container {
   display: flex;
   flex-direction: column;
 }
 
 @media (min-width: 768px) {
-  .conteiner {
+  .container {
     flex-direction: row;
     margin: 0 25px 40px 24px;
   }
@@ -506,7 +507,7 @@ body {
   display: flex;
   align-items: center;
   margin: 0 auto 16px 16px;
- }
+}
 
 @media (min-width: 768px) {
   .text__spoiler {
@@ -555,7 +556,7 @@ body {
     align-items: center;
     width: 531px;
     height: 347px;
-   }
+  }
 }
 
 .signboard__image {
@@ -566,16 +567,16 @@ body {
 
 @media (min-width: 768px) {
   .signboard__image {
-   margin: 0;
-   width: 360px;
-   height: 208px;
- }
+    margin: 0;
+    width: 360px;
+    height: 208px;
+  }
 }
 
 @media (min-width: 1120px) {
   .signboard__image {
-   width: 532px;
-   height: 307px;
-   }
+    width: 532px;
+    height: 307px;
+  }
 }
 
