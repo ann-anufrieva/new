@@ -13,10 +13,9 @@
 
   <header class="header-section">
     <div class="header-section__list"><span class="header-section__list_text">РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</span></div>
-</header>
+  </header>
 
-
-  <div class="swiper" data-mobile="false">
+  <div class="swiper">
 			<div class="swiper-wrapper">
 				<div class="swiper-slide">
           <img src="images-swiper/Lenovo.png" alt="Lenovo">
@@ -69,10 +68,14 @@
 			<button class="swiper-button-next"></button>
 
       <div class="swiper-pagination"></div>
+  </div>
 
-      <button class="control-btn control-btn__popup-open" dataShow='true' type='button'>Показать все</button>
+      <button class="b-show-more" type='button'>
+        <img src="images-swiper/iconDown.svg" alt="Показать все"
+        class="b-show-more__icon">
+        <label class="b-show-more__text">Показать все</label>
+      </button>
 
-		</div>
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 	<script src="js/swiper.js"></script>
 	<script src="js/showBrands.js"></script>
