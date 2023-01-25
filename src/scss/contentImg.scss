@@ -1,0 +1,22 @@
+.content-img {
+	@media screen and (min-width: 1120px) {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+.content-img__cps {
+	border-radius: 5px;
+	width: 320px;
+	position: relative;
+	left: -26px;
+	margin-bottom: 16px;
+	@media screen and (min-width: 768px) {
+		width: 360px;
+		margin-top: 24px;
+		left: 0;
+	}
+	@media screen and (min-width: 1120px) {
+		width: 530px;
+	}
+}

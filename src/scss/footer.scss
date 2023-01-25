@@ -1,0 +1,62 @@
+.footer {
+  max-width: 320px;
+  font-family: 'TT Lakes Regular';
+  color: #7E7E82;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto 20px;
+  padding-top: 16px;
+  border-top: 1px solid #D9FFF5;
+  @media screen and (min-width: 768px) {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    max-width: 744px;
+    padding-left: 24px;
+  }
+  @media screen and (min-width: 1120px) {
+    max-width: 1088px;
+    padding-left: 32px;
+    margin: 0 0 20px;
+  }
+  @media screen and (min-width: 1366px) {
+    
+  }
+}
+
+.footer__meta {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 16px;
+  @media screen and (min-width: 768px) {
+    justify-content: start;
+    max-width: 218px;
+  }
+}
+
+.footer__some-text {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+  @media screen and (min-width: 768px) {
+    max-width: 214px;
+  }
+}
+
+.footer__text {
+  display: flex;
+  justify-content: center;
+  margin-left: 16px;
+  @media screen and (min-width: 768px) {
+    max-width: 214px;
+    margin-right: 32px;
+    text-align: right;
+  }
+  @media screen and (min-width: 1366px) {
+    margin-right: 32px;
+    max-width: 330px;
+  }
+}

@@ -1,0 +1,7 @@
+.page {
+  @media screen and (min-width: 1120px) {
+      display: flex;
+      max-width: 1440px;
+      margin: 0 auto;
+  }
+}

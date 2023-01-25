@@ -1,0 +1,18 @@
+.table-head {
+  display: none;
+      margin-left: 24px;
+  @media screen and (min-width: 768px) {
+      display: block;
+      font-family:  'TT Lakes Regular';
+      max-width: 720px;
+      margin: 0 auto;
+  }
+  @media screen and (min-width: 1120px) {
+      max-width: 1056px;
+      margin: 0 auto;
+  }
+}
+
+.table-head__cell {
+  border-bottom: none;;
+}

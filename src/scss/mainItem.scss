@@ -1,0 +1,44 @@
+.main-item .list {
+	margin-top: 20px;
+	position: relative;
+	left: 0;
+}
+
+.list {
+	list-style: none;
+	padding: 0;
+}
+
+.list__item {
+	list-style: none;
+	padding: 0;
+}
+
+.list .list__item {
+	margin-bottom: 32px;
+}
+
+.link {
+	text-decoration: none;
+	color: #1B1C21;
+	display: flex;
+	align-items: center;
+}
+
+.list__item .link:hover::before {
+	content: '';
+	display: inline-block;
+	position: relative;
+	right: 10px;
+	left: -21px;
+	width: 8px;
+	height: 30px;
+	background-color: #41F6D7;
+	border-radius: 20%;
+}
+
+.list__item a:hover {
+	transition-duration: 0.6s;
+	transition-property: color;
+	color: #7E7E82;
+}

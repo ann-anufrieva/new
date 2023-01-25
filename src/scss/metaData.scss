@@ -1,0 +1,8 @@
+.meta__data {
+  min-width: 218px;
+  display: flex;
+  justify-content: center;
+  @media screen and (min-width: 768px) {
+    justify-content: start;
+  }
+}

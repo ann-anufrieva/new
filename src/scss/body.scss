@@ -1,0 +1,13 @@
+body {
+	overflow-x: hidden;
+	background: #F8F8F8;
+	min-width: 320px;
+	@media screen and (min-width: 768px) {
+        min-width: 768px;
+	}
+	@media screen and (min-width: 1440px) {
+		display: flex;
+		flex-wrap: nowrap;
+        max-width: 1120px;
+    }
+}

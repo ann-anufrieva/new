@@ -1,0 +1,11 @@
+.cell {
+  display: flex;
+  align-items: center;
+  padding-left: 4px;
+  padding-right: 10px;
+  border-bottom: 1px solid #EAEAEA;
+}
+
+.cell__border {
+  border-bottom: none;
+}

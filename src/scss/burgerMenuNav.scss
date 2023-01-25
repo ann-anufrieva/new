@@ -1,0 +1,14 @@
+.burger-menu__nav {
+	display: flex;
+	align-items: center;
+	max-width: 342px;
+	width: 100vw;
+}
+
+.burger-menu__nav_logo {
+	margin-left: 16px;
+	margin-right: auto;
+	@media screen and (min-width: 1366px) {
+		margin-left: 0;
+	}
+}

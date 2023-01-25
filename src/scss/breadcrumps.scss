@@ -1,0 +1,76 @@
+.breadcrumps {
+	display: flex;
+	flex-wrap: nowrap;
+	overflow-x: scroll;
+	
+	@media screen and (min-width: 1120px) {
+		overflow: auto;
+		display: flex;
+		flex-wrap: nowrap;
+	}
+}
+
+.breadcrumps__btn {
+	font-family: 'TT Lakes Regular';
+	font-size: 16px;
+	line-height: 24px;
+	color: #7E7E82;
+	border: 2px solid #F8F8F8;
+	background: #F8F8F8;
+	width: auto;
+	height: 40px;
+	outline: none;
+	background-color: #F8F8F8;
+	white-space: nowrap;
+	cursor: pointer;
+	padding: 8px 20px;
+}
+
+.breadcrumps__btn:hover {
+	border: 2px solid #B8FFEC;
+	border-radius: 6px;
+	background: #FFFFFF;
+	width: auto;
+	height: 40px;
+}
+
+.breadcrumps::-webkit-scrollbar {
+	width: 0;
+  height: 0;
+}
+
+.breadcrumps__btn_device {
+	@media screen and (min-width: 1366px) {
+		margin-left: 0;
+	}
+}
+
+.breadcrumps__btn_hide {
+	@media screen and (min-width: 1366px) {
+	display: none;
+	}
+}
+
+.breadcrumps__btn_reviews {
+	@media screen and (min-width: 768px) {
+		display: block;
+	}
+}
+
+.breadcrumps__btn_hide {
+	@media screen and (min-width: 1366px) {
+		display: block;
+	}
+}
+
+.breadcrumps__btn_brands {	
+	@media screen and (min-width: 1366px) {
+		order: -1;
+	}
+}
+
+.buttons__btn_services {
+	@media screen and (min-width: 1366px) {
+		display: none;
+	}
+}

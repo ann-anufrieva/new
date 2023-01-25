@@ -1,0 +1,40 @@
+.content-text {
+  @media screen and (min-width: 768px) {
+    margin-right: 48px;
+  }
+  @media screen and (min-width: 1120px) {
+    .content-text {
+      margin-right: 36px;
+    }
+  }
+}
+
+.content-text__txt {
+  font-family: "TT Lakes Regular";
+  font-size: 14px;
+  line-height: 18px;
+  color: #1b1c21;
+  max-width: 288px;
+  padding-top: 24px;
+  height: 90px;
+  overflow: hidden;
+  margin-bottom: 16px;
+  padding: 0;
+  @media screen and (min-width: 768px) {
+    max-width: 312px;
+  }
+  @media screen and (min-width: 1120px) {
+    height: 160px;
+    max-width: 490px;
+    overflow: auto;
+  }
+}
+
+.content-text__txt-more {
+  display: none;
+
+}
+
+.content-text__txt-show {
+  display: block;
+}

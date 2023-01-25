@@ -1,0 +1,46 @@
+.swiper-slide__mobil{
+  display: block;
+  width: 260px;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 44px;
+  padding-left: 16px;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.swiper-slide__title {
+  display: block;
+  font-family: 'TT Lakes Regular';
+  font-size: 14px;
+  line-height: 16px;
+  color: #7E7E82;
+  padding-top: 16px;
+  margin-bottom: 4px;
+}
+
+.swiper-slide__txt {
+  font-family: 'TT Lakes Regular';
+  font-size: 14px;
+  line-height: 16px;
+  color: #1B1C21;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+
+.swiper-slide__text {
+  position: relative;
+  font-family: 'TT Lakes Regular';
+  font-size: 14px;
+  line-height: 16px;
+  color: #1B1C21;
+  margin-top: 0;
+  margin-left: 0;
+}
+
+.cell-btn_m {
+  margin-left: 28px;
+}

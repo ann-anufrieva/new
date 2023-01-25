@@ -1,0 +1,13 @@
+.header-nav__logo {
+	display: flex;
+	background-image: url(../img/header/logo.svg);
+	background-repeat: no-repeat;
+	width: 99px;
+    height: 53px;
+    @media screen and (min-width: 768px) {
+	min-width: 99px;
+	margin-right: auto;	
+	margin-left: 16px;
+	//flex-grow: 2;
+	}
+}

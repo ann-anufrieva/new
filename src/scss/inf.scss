@@ -1,0 +1,60 @@
+.inf {
+  @media screen and (min-width: 768px) {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  @media screen and (min-width: 1120px) {
+    margin-left: 32px;
+  }
+  @media screen and (min-width: 1366px) {
+    margin-left: 24px;
+  }
+}
+
+.inf__text {
+  max-width: 288px;
+  font-family: 'TT Lakes Regular';
+  color: #1B1C21;
+  margin-left: 16px;
+  margin-bottom: 16px;
+  @media screen and (min-width: 768px) {
+    max-width: 421px;
+    margin-left: 24px;
+  }
+  @media screen and (min-width: 1120px) {
+    margin-left: 32px;
+  }
+}
+
+.inf__link {
+  max-width: 192px;
+  font-family: 'TT Lakes Medium';
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+  color: #1B1C21;
+  margin-left: 16px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  @media screen and (min-width: 768px) {
+    max-width: 314px;
+    margin-left: 24px;
+    margin-bottom: 80px;
+  }
+  @media screen and (min-width: 1120px) {
+    margin-left: 32px;
+  }
+}
+
+.inf__link_text::after {
+  content: '';
+  display: inline-block;
+  background-image: url(../img/iconInfLink.svg);
+  background-repeat: no-repeat;
+  width: 12px;
+  height: 12px;
+  position: relative;
+  top: 2px;
+  left: 10px;
+}
