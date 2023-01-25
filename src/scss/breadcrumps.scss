@@ -4,9 +4,10 @@
 	overflow-x: scroll;
 	
 	@media screen and (min-width: 1120px) {
-		overflow: auto;
 		display: flex;
-		flex-wrap: nowrap;
+    flex-wrap: wrap;
+    overflow: auto;
+		width: 1063px;
 	}
 }
 
@@ -40,8 +41,8 @@
 }
 
 .breadcrumps__btn_device {
-	@media screen and (min-width: 1366px) {
-		margin-left: 0;
+	@media screen and (min-width: 1120px) {
+		display: none;
 	}
 }
 

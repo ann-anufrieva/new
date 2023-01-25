@@ -24,15 +24,19 @@
     max-width: 312px;
   }
   @media screen and (min-width: 1120px) {
-    height: 160px;
+    height: 60px;
     max-width: 490px;
     overflow: auto;
+    margin-top: 25px;
   }
 }
 
 .content-text__txt-more {
   display: none;
-
+  @media screen and (min-width: 1120px) {
+    display: block;
+    height: 80px;
+  }
 }
 
 .content-text__txt-show {
