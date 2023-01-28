@@ -1,6 +1,10 @@
 .content-text {
+  padding-left: 16px;
   @media screen and (min-width: 768px) {
+    padding: 0;
     margin-right: 48px;
+    margin-top: 10px;
+    
   }
   @media screen and (min-width: 1120px) {
     .content-text {
@@ -14,14 +18,17 @@
   font-size: 14px;
   line-height: 18px;
   color: #1b1c21;
-  max-width: 288px;
+  width: 90%;
   padding-top: 24px;
   height: 90px;
   overflow: hidden;
   margin-bottom: 16px;
   padding: 0;
   @media screen and (min-width: 768px) {
-    max-width: 312px;
+    width: 100%;
+    margin-bottom: 0;
+    height: 80px;
+
   }
   @media screen and (min-width: 1120px) {
     height: 60px;
@@ -33,6 +40,9 @@
 
 .content-text__txt-more {
   display: none;
+  @media screen and (min-width: 768px) {
+  height: 120px;
+  }
   @media screen and (min-width: 1120px) {
     display: block;
     height: 80px;

@@ -24,6 +24,7 @@
 	background-image: url(../img/header/burgerMenu.svg);
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
+	margin-left: 16px;
 }
 
 .modal-button__btn_menu::before {
@@ -37,6 +38,7 @@
 	display: none;
 	@media screen and (min-width: 768px) {
 		display: block;
+		left: 55px;
 	}
 }
 
@@ -53,6 +55,7 @@
 	background-position: 50% 50%;
 	margin-right: 16px;
 }
+
 
 .modal-button__btn_man {
 	background-image: url(../img/header/man.svg);
@@ -88,6 +91,7 @@
 	background-image: url(../img/header/search.svg);
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
+	margin-right: 16px;
 }
 
 .modal-button__btn_services {

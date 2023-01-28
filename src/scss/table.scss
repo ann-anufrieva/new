@@ -7,14 +7,14 @@
       font-family:  'TT Lakes Regular';
       font-size: 14px;
       line-height: 18px;
-      max-width: 720px;
       background-color: #fff;
       border-radius: 10px;
-      margin: 0 auto 24px;
+      max-width: 100%;
+      width: 100%;
+      margin-left: 24px;
 
   }
   @media screen and (min-width: 1120px) {
-      max-width: 1056px;
-      margin: 0 auto 32px;
+      margin-left: 32px;
   }
 }

@@ -5,7 +5,11 @@
       flex-wrap: wrap;
   }
   @media screen and (min-width: 1120px) {
-      display: flex;
-      flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 32px;
+    max-width: 1120px;
+    overflow: hidden;
+    transition: height 1s ease;
   }
 }

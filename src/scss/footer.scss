@@ -1,5 +1,5 @@
 .footer {
-  max-width: 320px;
+ 
   font-family: 'TT Lakes Regular';
   color: #7E7E82;
   font-size: 14px;
@@ -13,7 +13,7 @@
   @media screen and (min-width: 768px) {
     flex-wrap: nowrap;
     justify-content: space-between;
-    max-width: 744px;
+    
     padding-left: 24px;
   }
   @media screen and (min-width: 1120px) {

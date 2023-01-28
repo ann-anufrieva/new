@@ -763,6 +763,7 @@ body {
       margin-right: 24px; } }
   @media screen and (min-width: 1120px) {
     .swiper-slide {
+      max-width: 240px;
       margin-right: 32px; } }
 
 .swiper-slide__else {
